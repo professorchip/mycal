@@ -1,0 +1,52 @@
+:root {
+    --satoshi: 'Satoshi', sans-serif;
+}
+
+body {
+    margin: 0;
+    background: rgb(224, 224, 224);
+}
+
+.container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.createEventCard {
+    align-items: center;
+    background: rgb(193, 193, 193);
+    width: 250px;
+    height: fit-content;
+    padding: 5px;
+    font-family: var(--satoshi), sans-serif;
+}
+
+.inputfield {
+    width: 90%;
+    margin: 5 5 5 5;
+    border-radius: 3px;
+    border-style: none;
+    padding: 3px;
+}
+
+.createEventCardTitle {
+    border-bottom: 1px solid black;
+    margin-bottom: -20px;
+}
+
+.dollar{
+	display:inline-block;
+	position: relative;
+    width: 100%;
+	}
+.dollar input{
+	padding-left:15px;
+	}
+.dollar:before {
+	position: absolute;
+    content:"$";
+    left:5px;
+	top:2px;
+ 	}
